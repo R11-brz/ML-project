@@ -46,7 +46,7 @@ def get_movie_details(movie_id):
 def main():
     dataset = []
     
-    for p in range(1, 251):
+    for p in range(201, 251):
         print(f"--- Загружаю страницу {p} из TMDB ---")
         movies_list = get_movies(p)
 
